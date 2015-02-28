@@ -22,7 +22,7 @@ Main content styles
 		@extend  %clear;
 		@include border-radius;
 		border: $base-border;
-		padding: $base-padding;
+		padding: 0;
 		margin-bottom: $base-padding / 2;
 		@media ($tablet-min) {
 			padding: 0;

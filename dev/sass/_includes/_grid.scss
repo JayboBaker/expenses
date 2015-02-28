@@ -4,10 +4,16 @@ Grid
 
 
 .grid-container {
-	padding-left: $base-padding;
-	padding-right: $base-padding;
+	padding-left: 0;
+	padding-right: 0;
 	margin-left: auto;
 	margin-right: auto;
+	@media ($tablet-min) { 
+		padding-left: $base-padding;
+		padding-right: $base-padding;
+	}
+
+	
 }
 img {
 	//width: 100%;

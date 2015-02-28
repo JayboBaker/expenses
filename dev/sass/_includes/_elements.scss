@@ -17,9 +17,12 @@ main {
 section {
 	@include border-radius;
 	background-color: $second-bg-color;
-	padding: $base-padding;
+	padding: $base-padding / 2;
 	margin-top: $base-margin;
 	margin-bottom: $base-margin;
+	@media ($tablet-min) {
+		padding: $base-padding;
+	}
 }
 input, textarea, select {
 	@include border-radius;
