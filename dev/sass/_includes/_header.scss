@@ -1,0 +1,35 @@
+/* ============================================================
+Header styles
+============================================================*/
+
+header {
+	background-color: $third-bg-color;
+	color: $second-font-color;
+	padding: $base-padding;
+	margin-top: 0;
+	margin-bottom: $base-margin;
+	text-align: center;
+	h1 {
+		display: inline-block;
+	}
+	.github-ribbon {
+		img {
+			display: none;
+			 position: absolute; 
+			 top: 0; 
+			 left: 0; 
+			 border: 0; 
+			 z-index: 2;
+			 @media ($tablet-min) {
+			 	display: block;
+			 }
+		}
+	}
+	nav {
+		.log_out_button {
+			@extend .button-alt;
+			float: right;
+		}
+	}
+
+}

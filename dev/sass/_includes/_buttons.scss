@@ -1,0 +1,61 @@
+/* ============================================================
+Button styles
+============================================================ */
+.button-block {
+	text-align: center;
+}
+.button {
+	@include border-radius;
+	@include transition(0.5s);
+	display: inline-block;
+	width: 200px;
+	padding: $base-padding;
+	line-height: 1.2;
+	background-color: transparent;
+	border: $button-border;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+
+	&:hover,
+	&:active{
+		border-color: $base-accent-color;
+		color: $base-accent-color;
+	}
+
+}
+
+.button-main {
+	background-color: $base-accent-color;
+	color: $second-font-color;
+	border-color: $base-accent-color;
+	padding: initial;
+	width: 100%;
+	line-height: 2;
+	@media ($tablet-min) {
+		width: 50%;
+	}
+	&:hover,
+	&:active{
+		background-color: transparent;
+		border-color:  $button-border;
+		color: $base-accent-color;
+	}
+}
+
+.button-alt {
+	@extend .button;
+	background-color: $second-bg-color;
+	color: $base-accent-color;
+	border-color: $second-bg-color;
+	padding: initial;
+	width: 100%;
+	line-height: 2;
+	width: 100px;
+	&:hover,
+	&:active{
+		background-color: transparent;
+		border-color:  $second-bg-color;
+		color: $base-bg-color;
+	}
+}

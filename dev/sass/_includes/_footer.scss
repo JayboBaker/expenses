@@ -1,0 +1,11 @@
+/* ===========================================================
+Footer styles
+============================================================*/
+
+footer {
+	@extend %clear;
+	border-top: $section-border;
+	background-color: $second-bg-color;
+	padding: $base-padding;
+	//color: $second-font-color;
+}

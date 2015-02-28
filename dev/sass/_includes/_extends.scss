@@ -1,0 +1,78 @@
+////////////////////////////////////////////////////////////////////////////////
+// Helpers
+////////////////////////////////////////////////////////////////////////////////
+
+.text-right {
+	text-align: right;
+}
+
+.invalid {
+	@include box-shadow(none);
+	border: 1px solid $red;
+
+}
+.error {
+	color: $red;
+}
+.hide {
+	display: none;
+}
+%null { 
+	padding: 0; 
+	margin: 0; 
+	list-style-type: none;
+}
+
+%hidetext {
+	text-indent: -9999px; 
+	white-space: nowrap;
+	overflow: hidden; 
+	direction: ltr;
+}
+
+%blockleft {
+	display: block; 
+	float: left;
+}
+
+%blockright {
+	display: block; 
+	float: right;
+}
+
+%center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+%clear{
+	@extend %blockleft;
+	clear: both;
+	width: 100%; 
+}
+
+%clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+%text-truncate {
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: top;
+}
+
+%outer-container {
+	@extend %center-block;
+	max-width: $base-max-width;
+}

@@ -1,0 +1,172 @@
+////////////////////////////////////////////////////////////////////////////////
+// Project Variables
+////////////////////////////////////////////////////////////////////////////////
+
+// Breakpoints //
+$desktop: 1024px;
+$tablet: 769px;
+$mobile: 480px;
+
+
+$tablet-max:  unquote("max-width: " + ($desktop - 1));
+$mobile-max:  unquote("max-width: " + ($tablet - 1));
+
+
+$desktop-min: unquote("min-width:" + $desktop);
+$tablet-min:  unquote("min-width:" + $tablet);
+$mobile-min:  unquote("min-width:  1px");
+
+$base-max-width: 1000px;
+
+// Colors //
+$dark-gray: #292929; 
+$medium-gray: #e6e6e6;
+$light-gray: #f7f7f7;
+
+$blue: #3368B8;
+$red: #FF0000;
+$yellow: #FFFF80;
+$green: #80FF80;
+
+$base-brand-color: $blue;
+$second-brand-color: $light-gray;
+$third-brand-color: $light-gray;
+
+$base-accent-color: $base-brand-color;
+
+$darken-percent: 20%;
+
+	// Backgrounds
+	$base-bg-color: $medium-gray;
+	$second-bg-color: $light-gray;
+	$third-bg-color: $base-brand-color;
+
+	// Fonts
+	$base-font-color: $dark-gray;
+	$second-font-color: $light-gray;
+	$third-font-color: $dark-gray;
+
+	// Links
+	$base-link-color: $base-accent-color;
+	$base-hover-link-color: $base-accent-color;
+	$second-link-color: $base-font-color;
+	$second-hover-link-color: $base-accent-color;
+	$third-link-color: $second-font-color;
+	$third-hover-link-color: $base-accent-color;
+
+	//Buttons
+	$base-button-color: $light-gray;
+	$second-button-color: $light-gray;
+	$third-button-color: $light-gray;
+
+	// Borders
+	$base-border-color: $medium-gray;
+	$second-border-color: $base-brand-color;
+	$third-border-color: $dark-gray;
+
+	// Panels
+	$base-panel-color: $dark-gray;
+	$second-panel-color: $medium-gray;
+	$third-panel-color: $dark-gray;
+
+	// Flash Colors
+	$alert-color: $yellow;
+	$error-color: $red;
+	$notice-color: lighten($base-accent-color, 40);
+	$success-color: $green;
+
+	// Forms
+	$form-border-color: $base-border-color;
+	$form-border-color-hover: $base-accent-color;
+	$form-border-color-focus: $base-accent-color;
+
+	// Shadows //
+	$base-shadow-color: $dark-gray;
+	$second-shadow-color: $medium-gray;
+
+
+// Leading //
+$base-line-height: 1;
+$base-spacing: 1em;
+$base-padding: 10px;
+$base-margin: 1em;
+
+// Transparency //
+$base-opacity: 100;
+
+// Typography //
+$sans-serif: Verdana, Arial, Helvetica, sans-serif; 
+$serif: Georgia, Times, 'Times New Roman', serif;
+
+$base-font: 'DroidSans', $sans-serif;
+$second-font: 'Bebas', $sans-serif;
+$third-font: $sans-serif;
+ 
+$base-font-size:1em;
+
+	// Headings
+	$header-font-family: $second-font;
+	$header-line-height: 1;
+	$header-font-size: 1.4em;
+	$header-font-color: $second-font-color;
+	$h1-font-size: 3em;
+	$h2-font-size: 2em;
+	$h3-font-size: 1.5em;
+	$h4-font-size: 1.3em;
+	$h5-font-size: 1.2em;
+	$h6-font-size: 1.1em;
+
+	// Links
+	$link-font-size: 1em;
+
+	// Buttons
+	$button-font-family: $base-font;
+	$button-large-font-size: 2em;
+	$button-small-font-size: 1em;
+
+	// Forms
+	$form-font-family: $base-font;
+	$form-font-size: 1em;
+
+
+	
+
+// Borders //
+$base-border-width: 2px;
+$medium-border-width: $base-border-width * 2;
+$thick-border-width: $base-border-width * 3;
+
+$base-border-radius: 4px;
+
+$base-border: $base-border-width solid $base-border-color;
+$second-border: $base-border-width solid $second-border-color;
+
+	// Forms
+	$form-border-radius: $base-border-radius;
+
+	// Buttons
+	$button-border: 2px solid $base-border-color;
+
+	// Border 
+	$section-border: 2px solid $base-brand-color;
+	$third-border: 2px solid $base-border-color;
+	
+
+// Shadows //
+$base-box-shadow-h: 0;
+$base-box-shadow-v: 2px;
+$base-box-shadow-blur: 2px;
+$base-box-shadow: $base-box-shadow-h $base-box-shadow-v $base-box-shadow-blur $base-shadow-color;
+$second-box-shadow: $base-box-shadow-h $base-box-shadow-v $base-box-shadow-blur $second-shadow-color;
+
+$form-box-shadow: $base-box-shadow;
+$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, $darken-percent), 0.7);
+
+
+
+
+
+
+
+
+

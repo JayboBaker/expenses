@@ -1,0 +1,379 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"section",
+				"section"
+			],
+			[
+				"map",
+				"map_canvas"
+			],
+			[
+				"linkdin",
+				"linkdin"
+			],
+			[
+				"google",
+				"google"
+			],
+			[
+				"clea",
+				"clearfix"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"about",
+				"about"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"su",
+				"Sublimall: Upload"
+			],
+			[
+				"sub",
+				"Sublimall: Upload"
+			]
+		],
+		"width": 637.0
+	},
+	"console":
+	{
+		"height": 176.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/work/repos/jb_dev/dev/sass/_includes/_icons.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_logos.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_slick.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_elements.scss",
+		"/C/work/repos/jb_dev/dev/js/includes/modernizr.js",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_header.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_main.scss",
+		"/C/work/repos/jb_dev/dev/js/main.js",
+		"/C/work/repos/jb_dev/dev/partials/header.html",
+		"/C/work/repos/jb_dev/dev/sass/application.scss",
+		"/C/work/repos/jb_dev/gruntfile.js",
+		"/C/work/repos/jb_dev/package.json",
+		"/C/work/repos/jb_dev/dist/index.html",
+		"/C/Users/Baker/Downloads/modernizr.custom.50445.js",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_variables.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_parallax.scss",
+		"/C/work/repos/jb_dev/dev/partials/footer.html",
+		"/C/work/repos/jb_dev/dist/js/main.min.js",
+		"/C/work/repos/jb_dev/dist/css/main.css",
+		"/C/work/repos/jb_dev/.gitignore",
+		"/C/work/repos/jb_dev/.git/config",
+		"/C/work/repos/jb_dev/dev/js/includes/aparse.js",
+		"/C/work/repos/jb_dev/dev/js/parse.js",
+		"/C/work/repos/jb_dev/dev/js/emailer/cloud/main.js",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_typography.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_footer.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_buttons.scss",
+		"/C/work/repos/jb_dev/dev/js/emailer/config/global.json",
+		"/C/Users/Baker/Documents/jb_dev/.git/config",
+		"/C/xampp/htdocs/rsa/index.html",
+		"/C/work/repos/jb_dev/dev/index.html",
+		"/C/work/repos/jamesBaker/index.html",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_normalize.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_mixins.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_grid.scss",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_extends.scss",
+		"/C/work/repos/sprites_test/sass/base.scss",
+		"/C/work/repos/sprites_test/gruntfile.js",
+		"/C/work/repos/sprites_test/index.html",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_icons.css",
+		"/C/work/repos/rsa/js/main.js",
+		"/C/work/repos/diamondCars/js/main.js",
+		"/C/work/repos/pr23/slick/slick/_slick.scss",
+		"/C/work/repos/pr23/slick/slick/slick.min.js",
+		"/C/work/repos/jb_dev/dev/js/aslick.js",
+		"/C/work/repos/pr23/js/main.js",
+		"/C/work/code_snippets/slick-carousel/slick-1.4.0/slick.jquery.json",
+		"/C/work/code_snippets/slick-carousel/slick-1.4.0/bower.json",
+		"/C/work/code_snippets/slick-carousel/slick-1.4.0/component.json",
+		"/C/work/repos/jb_dev/dev/img/icons/bootstrap-icon-2x.png",
+		"/C/work/repos/jb_dev/dev/sass/_includes/_navigation.scss",
+		"/C/work/code_snippets/slick-carousel/slick-1.4.0/slick/slick-theme.scss",
+		"/C/work/repos/jb_dev/dev/js/slick.js",
+		"/C/work/code_snippets/slick-carousel/slick-1.4.0/slick/slick.js",
+		"/C/work/code_snippets/slick-carousel/slick-1.4.0/slick/slick.min.js",
+		"/C/work/repos/boiler/dev/index.html",
+		"/C/work/repos/jb_dev/dev/blog.html",
+		"/C/Users/Baker/Dropbox/work/stargate/README.md",
+		"/C/work/repos/jb_dev/dist/dev/index.html",
+		"/C/Users/Baker/Dropbox/work/stargate/config.codekit",
+		"/C/work/repos/jb_dev/dev/index.ejs",
+		"/C/work/repos/jb_dev/dev/partials/_footer.ejs",
+		"/C/work/repos/jb_dev/dev/partials/_header.ejs",
+		"/C/work/repos/jb_dev/node_modules/grunt-ejs/node_modules/ejs/examples/functions.ejs",
+		"/C/work/repos/jb_dev/node_modules/grunt-ejs/node_modules/ejs/examples/functions.js",
+		"/C/work/repos/jb_dev/node_modules/grunt-ejs/node_modules/ejs/examples/list.ejs",
+		"/C/work/repos/jb_dev/node_modules/grunt-ejs/node_modules/ejs/examples/list.js",
+		"/C/work/repos/jb_dev/node_modules/grunt-ejs/tasks/ejs.js",
+		"/C/work/repos/jb_dev/node_modules/grunt-ejs/README.md",
+		"/C/work/repos/jb/public/_layout.ejs",
+		"/C/work/repos/jb_dev/dev/partials/_layout.ejs",
+		"/C/work/repos/jb/public/index.ejs",
+		"/C/work/repos/jb/css/_includes/_normalize.scss",
+		"/C/work/repos/jb/css/main.scss",
+		"/C/work/repos/jb/_harp.json",
+		"/C/work/repos/jb/index.ejs",
+		"/C/work/repos/jb/js/main.js",
+		"/C/work/repos/jb/_layout.ejs",
+		"/C/work/repos/jb/css/_includes/_variables.scss",
+		"/C/work/repos/jb/js/modernizr.js",
+		"/C/Users/Baker/Downloads/modernizr.custom.73953.js",
+		"/C/Users/Baker/Downloads/modernizr.custom.28256.js",
+		"/C/work/repos/jb/css/_includes/_extends.scss",
+		"/C/work/repos/jb/css/_includes/_mixins.scss",
+		"/C/work/repos/jb/css/_includes/_typography.scss",
+		"/C/work/repos/jb/_data.json",
+		"/C/Users/Baker/Downloads/PIE-1.0.0/PIE_uncompressed.js",
+		"/C/Users/Baker/AppData/Roaming/Sublime Text 3/Packages/CSSLint/CSSLint.sublime-settings",
+		"/C/Users/Baker/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/C/Users/Baker/AppData/Roaming/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/C/Users/Baker/AppData/Roaming/Sublime Text 3/Packages/BufferScroll/BufferScroll.sublime-settings",
+		"/C/Users/Baker/AppData/Roaming/Sublime Text 3/Packages/User/BufferScroll.sublime-settings",
+		"/C/Users/Baker/AppData/Roaming/Sublime Text 3/Packages/Sublimall/Sublimall.sublime-settings",
+		"/C/work/repos/pr23/stylesheets/base/_base.scss",
+		"/C/work/repos/jb/css/_includes/_elements.scss",
+		"/C/work/repos/pr23/stylesheets/base/_typography.scss",
+		"/C/work/repos/pr23/stylesheets/base/_variables.scss",
+		"/C/Users/Baker/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Baker/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/work/repos/jb/_layout.jade",
+		"/C/work/repos/pr23/stylesheets/slick/_slick.scss",
+		"/C/work/repos/pr23/stylesheets/_content.scss",
+		"/C/work/repos/pr23/stylesheets/main.css",
+		"/C/work/repos/pr23/stylesheets/bourbon/css3/_selection.scss",
+		"/C/work/repos/pr23/stylesheets/main.scss",
+		"/C/work/repos/pr23/stylesheets/bourbon/_bourbon.scss",
+		"/C/work/repos/pr23/slick/slick/slick.css",
+		"/C/Users/Baker/Downloads/slick-1.3.15/slick-1.3.15/index.html",
+		"/C/Users/Baker/Downloads/slick-1.3.15/slick-1.3.15/slick/slick.css",
+		"/C/work/repos/angular-sprout/README.md",
+		"/C/work/repos/angular-sprout/app/index.html",
+		"/C/work/repos/angular-sprout/app/guidebook/controller/chaptercontroller.js",
+		"/C/work/repos/angular-sprout/app/guidebook/controller/notescontroller.js",
+		"/C/work/repos/angular-sprout/app/guidebook/guidebook.html",
+		"/C/work/repos/angular-sprout/app/guidebook/view/style.css",
+		"/C/work/repos/angular-sprout/app/guidebook/view/addnote.html",
+		"/C/work/repos/angular-sprout/app/guidebook/view/chapters.html",
+		"/C/work/repos/angular-sprout/app/guidebook/model/chaptermodel.js",
+		"/C/work/repos/angular-sprout/app/guidebook/model/notemodel.js",
+		"/C/work/repos/angular-sprout/app/guidebook/guidebook.js",
+		"/C/Users/Baker/Downloads/slick-1.3.15.zip"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\work\\repos\\jb_dev\\dev",
+			"dist"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img",
+			"force",
+			"img/",
+			"trans",
+			": none",
+			"focus",
+			";\n",
+			"\n.",
+			"xam",
+			"class",
+			"res",
+			"class",
+			"li",
+			"white",
+			"#dddddd",
+			"#000000",
+			"#111111",
+			"#ffffff",
+			"&#8681;",
+			"ul",
+			"face",
+			">\n",
+			"img",
+			"down-arrow",
+			"img",
+			"box-s",
+			"_",
+			"$h1-size:;"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"span",
+			"img/logos/",
+			"span",
+			"$medium-gray",
+			"$dark-gray",
+			"$light-gray",
+			"&#10140;",
+			"scroll-arrow"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 242.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

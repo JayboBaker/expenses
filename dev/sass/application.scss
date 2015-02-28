@@ -1,0 +1,16 @@
+////////////////////////////////////////////////////////////////////////////////
+// Main stylesheet
+////////////////////////////////////////////////////////////////////////////////
+
+@import '_includes/normalize'; 	// CSS Reset
+@import '_includes/variables'; 	// Default project variables
+@import '_includes/mixins'; 	// All mixins
+@import '_includes/extends'; 	// All Extends 'classes'
+@import '_includes/grid'; 		// Grid settings
+@import '_includes/typography'; // Base font styling
+@import '_includes/elements'; 	// Base element styles
+@import '_includes/buttons'; 	// Button styles 
+@import '_includes/header'; 	// Header styles 
+@import '_includes/main'; 		// Main content styles
+@import '_includes/footer'; 	// Footer styles  
+

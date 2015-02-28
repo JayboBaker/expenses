@@ -1,0 +1,250 @@
+/* ===========================================================
+Main content styles
+============================================================*/
+
+#user_details_area {
+	li {
+		@media ($tablet-min) {
+			display: inline-block;
+		}
+		&:last-of-type {
+			@media ($tablet-min) {
+				float: right;
+			}
+		}	
+	}
+	
+}
+
+#expense_items_area {
+	width: 100%;
+	.item_container {
+		@extend  %clear;
+		@include border-radius;
+		border: $base-border;
+		padding: $base-padding;
+		margin-bottom: $base-padding / 2;
+		@media ($tablet-min) {
+			padding: 0;
+			border: none;
+		}
+		&.expense_headers {
+			display: none;
+			@media ($tablet-min) {
+				margin-bottom: 0; 
+				display: table;
+			}
+			div {
+				label {
+					@media ($tablet-min) { 
+						display: block;
+					}	
+				}
+			}	
+		}
+		&:focus {
+			border: $second-border;
+		}
+		&.hide {
+			display: none;
+		}
+		.row {
+			width: 100%;
+			display: block;
+			position: relative;
+			@media ($tablet-min) {
+				display: table;
+			}
+			> div {
+				display: inline-block;
+				margin: 0;
+				padding: $base-padding / 2;
+				@media ($tablet-min) {
+					display: table-cell;
+				}
+			}
+			label {
+				display: inline-block;
+				@media ($tablet-min) {
+					display: none;
+				}
+			}	
+			span {
+				display: inline-block;
+				@media ($tablet-min) {
+					display: none;
+				}
+			}
+			.col_1 {
+				width: 50%;
+				@media ($tablet-min) { 
+					width: 16%;
+				}
+				select {
+					width: 100%;
+					@media ($tablet-min) { 
+						width: 100%;
+					}
+				}
+			}
+			.col_2 {
+				width: 100%;
+				@media ($tablet-min) { 
+					width: 42%;
+				}
+			}
+			.col_3 {
+				width: 33%;
+				@media ($tablet-min) { 
+					width: 9%;
+				}
+				input {
+					width: 100%;	
+				}
+			}
+			.col_4 {
+				width: 33%;
+				@media ($tablet-min) { 
+					width: 9%;
+				}
+				input {
+					width: 100%;	
+				}
+			}
+			.col_5 {
+				width: 33%;
+				float: right;
+				@media ($tablet-min) { 
+					width: 9%;
+					float: none;
+				}
+				input {
+					width: 100%;	
+				}
+			}
+			.col_6 {
+				text-align: right;
+				position: absolute;
+				top: $base-padding * 2;
+				right: 0;
+				@media ($tablet-min) { 
+					width: auto;
+					position: static;
+				}
+				
+			}
+		}
+
+			
+	}
+	.item_errors {
+		@extend %clear;
+		@extend .error;
+		display: none;
+		width: 100%;
+		ul {
+			padding: $base-padding / 2;
+			margin-top: $base-margin / 2;
+			margin-bottom: 0;
+		}
+	}
+	.remove_item {
+		@extend .button;
+		display: inline-block;
+		padding: $base-padding $base-padding / 2;
+		width: 100%;
+		height: 100%;
+		&:before {
+			content: '\2716';
+		}	
+	}
+	.col_add {
+		clear:both;
+		display: block;
+		padding: $base-padding * 2 0;
+		@media ($tablet-min) { 
+			padding: $base-padding * 2 $base-padding / 2;
+		}
+		.add_item {
+			@extend .button;
+			display: inline-block;
+			padding-left: 10px;
+			position: relative;
+			width: 100%;
+			@media ($tablet-min) {
+				width: 50%;
+			}
+			
+			&:before {
+				font-size: 1.1em;
+				line-height: 0;
+				content: '\2795';
+				//position: absolute;
+				//bottom: 0;
+			}
+		}
+	}
+
+	
+	.date_container {
+		display: inline-block;
+		width: 50%;
+		margin:  0;
+		padding: $base-margin 0 0 0;
+		text-align: right;
+		float: right;
+		input {
+			width: 65%;
+			@media ($tablet-min) {
+				width: 34%;
+				margin-right: 31%;
+			}	
+		}
+	}
+	> .item_errors {
+		display: inline-block;
+		float: right;
+		text-align: right;
+		ul {
+			padding: 0;
+			margin-top: 0;
+			margin-bottom: $base-margin;
+			@media ($tablet-min) {
+				margin-right: 16%;
+			}	
+		}
+	}
+}
+
+#expense_totals_area {
+	li {
+		padding: $base-padding (($base-padding / 2) * 3);
+		text-align: right;
+		@media ($tablet-min) { 
+			padding: $base-padding $base-padding * 3; 
+		}
+
+	}
+	label {
+		display: inline-block;
+		text-align:right;
+	}
+	input {
+		width: 30%;
+		@media ($tablet-min) { 
+		width: 18%;
+		margin-right: 13%;
+		}
+	}
+	.button-block {
+		@media ($tablet-min) { 
+			text-align: right;
+			padding-right: 15%;
+		}
+		.button {
+			@extend .button-main;
+			margin-right: 0;
+			margin-bottom: $base-margin;
+		}
+	}
+}

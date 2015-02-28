@@ -1,0 +1,114 @@
+{{= it.include("header") }}
+    <main role="main">
+      <section id="user_details_area">
+        <ul>
+          <li><h2>Business Name</h2></li>
+          <li><h2>User Full Name</h2></li>
+        </ul>
+        <h3>Welcome to your Your Expenses.</h3>
+        <p>Below is a form for you to enter details of any expense you may have incured on behalf of your business/employer.</p>
+        <p>You may enter as many item's as you like, just remember that <strong>all visible fields are required</strong>.</p>
+        <p>All amounts will be calculated from your choice of item Type and Gross amount entered.</p>
+      </section><!-- /#user_details_area -->
+      
+      <form action="#" method="POST" name="frm_expense" id="frm_expense">
+        <section id="expense_items_area">
+          <h2>Items</h2>
+          <div class="row date_container">
+            <label for="txt_item_date">Date:</label>
+            <input type="date" id="txt_item_date" name="txt_item_date" class="input" placeholder="dd/mm/yyyy" title="Please enter the date for this expense." autofocus="autofocus" required="required">
+
+          </div>
+          <div class="item_errors"><ul></ul></div>
+          <div class="item_container expense_headers">
+            <div class="row">
+              <div class="col_1">
+                <label>Type:</label>
+              </div>
+              <div class="col_2">
+                <label>Description:</label>
+              </div>
+              <div class="col_3">
+                <label>Gross: (&pound;)</label>
+              </div>
+              <div class="col_4">
+                <label>VAT: (&pound;)</label>
+              </div>
+              <div class="col_5">
+                <label>Net: (&pound;)</label>
+              </div>
+              <div class="col_6">
+                <label>&nbsp;</label>
+              </div>
+            </div><!-- /.row -->
+          </div><!-- /.item_container -->
+
+          <div class="item_container">
+            <div class="row">
+              <div class="col_1">
+                <label for="sel_item_type_0">Type:</label>
+                <select id="sel_item_type_0" name="sel_item_type_0" class="input" placeholder="Select Type" title="Please select your expense type for this item." required="required">
+                  <option value="">Type...</option>
+                  <option value="1">Telephone</option>
+                  <option value="0">Public Transport &amp; Taxis</option>
+                  <option value="1">Computer Consumables</option>
+                  <option value="1">Subsistence</option>
+                  <option value="0">Overseas Travel</option>
+                </select>
+              </div>
+              <div class="col_2">
+                <label for="txt_item_desc_0">Description:</label>
+                <input type="text" id="txt_item_desc_0" name="txt_item_desc_0" class="input" title="Please enter a description of this item." placeholder="Short description of expense item." min="3" maxlength="255" required="required">
+              </div>
+              <div class="col_3">
+                <label for="txt_item_gross_0">Gross:</label>
+                <span>&pound;</span>
+                <input type="text" id="txt_item_gross_0" name="txt_item_gross_0" class="input" title="Please enter a Gross amount of this item (including VAT, if any)." min="1" maxlength="10" required="required">
+              </div>
+              <div class="col_4">
+                <label for="txt_item_vat_0">VAT:</label>
+                <span>&pound;</span>
+                <input type="text" id="txt_item_vat_0" name="txt_item_vat_0" class="input inactive" title="This is the amount of VAT paid on this item (if any)." required="required" disabled="disabled">
+              </div>
+              <div class="col_5">
+                <label for="txt_item_net_0">Net:</label>
+                <span>&pound;</span>
+                <input type="text" id="txt_item_net_0" name="txt_item_net_0" class="input inactive" title="This is the Net amount of this item (minus VAT, if any)." required="required" disabled="disabled">
+              </div>
+              <div class="col_6">
+                <!-- <a href="#" class="remove_item">Remove Item</a> -->
+              </div>
+            </div><!-- /.row -->
+            <div class="item_errors"><ul></ul></div>
+          </div><!-- /.item_container -->
+          <div class="col_add">
+            <a href="#" class="add_item">Add Another Item</a>
+          </div>
+        </section><!-- /#expense_items_area -->
+
+
+        <section id="expense_totals_area">
+          <h2>Totals</h2>
+          <ul>
+          <li>
+              <label for="total_gross">Total Gross Expense &pound;</label>
+              
+              <input type="text" id="total_gross" name="total_gross" class="input inactive" title="Your total Gross amount for this expense." disabled="disabled">
+            </li>
+            <li>
+              <label for="total_vat">Total VAT Charged &pound;</label>
+              
+              <input type="text" id="total_vat" name="total_vat" class="input inactive" title="Your total VAT amount for this expense." disabled="disabled">
+            </li>
+            <li>
+              <label for="total_net">Total Net Expense &pound;</label>
+              
+              <input type="text" id="total_net" name="total_net" class="input inactive" title="Your total Net amount for this expense." disabled="disabled">
+            </li>
+          </ul>
+          <div class="button-block"><input type="submit" class="button submit" value="Submit Expense"></div>
+        </section><!-- /#expense_totals_area -->
+      </form><!-- /#frm_expense -->
+    </main>
+
+{{= it.include("footer") }}
